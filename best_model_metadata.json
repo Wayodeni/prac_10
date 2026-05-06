@@ -1,0 +1,24 @@
+{
+  "model_name": "MobileNetV2 transfer learning для набора кошек, собак и обезьян",
+  "source_path": "e:\\bigdata\\DEEP_learning\\prac_10\\prac_5\\best_transfer.keras",
+  "saved_path": "e:\\bigdata\\DEEP_learning\\prac_10\\deployment_artifacts\\best_classification_model.keras",
+  "dataset": "custom_3class",
+  "class_names": [
+    "Cats",
+    "Dogs",
+    "Monkeys"
+  ],
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "need_flatten": false,
+  "metrics": {
+    "accuracy": 0.9884057971014493,
+    "recall": 0.9894598155467721,
+    "precision": 0.9890104053601795,
+    "f1": 0.9892004207079905,
+    "mean_inference_time_seconds": 0.0006056210628467734
+  }
+}
