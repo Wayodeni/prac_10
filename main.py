@@ -7,7 +7,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 APP_DIR = Path(__file__).resolve().parent
-MODEL_PATH = APP_DIR / 'best_classification_model.keras'
+MODEL_PATH = './best_classification_model.keras'
 METADATA_PATH = APP_DIR / 'best_model_metadata.json'
 
 app = FastAPI(title='Image Classification API')
